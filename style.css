@@ -95,6 +95,7 @@ footer{
     text-align: center;
     color: var(--secondary-color);
 }
+
 @media (max-width:960px) {
     :root{
         --space-default:30px;
@@ -121,5 +122,20 @@ footer{
     }
     footer{
         display: none;
+    }
+}
+
+@media (max-width:640px) {
+    .pikachu-image{
+        width: 90vw;
+    }
+    .description__title{
+        font-size: 10vw;
+    }
+    .description__text{
+        display: none;
+    }
+    .action{
+        width: 100%;
     }
 }
